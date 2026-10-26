@@ -12,5 +12,5 @@ document.getElementById("formContacto").addEventListener("submit", function(e) {
   document.getElementById("errorMensaje").textContent = "";
   document.getElementById("contenedorResumen").innerHTML = "";
 
-  let esValido = true;
+
 });
