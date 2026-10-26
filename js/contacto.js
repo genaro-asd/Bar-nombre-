@@ -35,4 +35,14 @@ const emailValor = emailInput.value.trim();
     esValido = false;
   }
     
+  const mensajeValor = mensajeInput.value.trim();
+  if (mensajeValor.length < 10) {
+    document.getElementById("errorMensaje").textContent = "Por favor, detallá la cantidad de personas y el horario deseado (mínimo 10 caracteres).";
+    esValido = false;
+  }
+
+
+
+
+  
 });
