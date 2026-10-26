@@ -12,5 +12,9 @@ document.getElementById("formContacto").addEventListener("submit", function(e) {
   document.getElementById("errorMensaje").textContent = "";
   document.getElementById("contenedorResumen").innerHTML = "";
 
-
+const nombreValor = nombreInput.value.trim();
+  if (nombreValor.length < 3) {
+    document.getElementById("errorNombre").textContent = "Ingresá tu nombre completo (mínimo 3 caracteres).";
+    esValido = true;
+  }
 });
