@@ -143,3 +143,25 @@ nav a:hover, nav a.active {
         .btn-der {
             right: 10px;
         }
+
+.servicios-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.servicio-card {
+  flex: 1 1 280px;
+  max-width: 340px;
+  background-color: #1a1a1a;
+  border: 1px solid #333333;
+  border-top: 4px solid #e6a100;
+  border-radius: 8px;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
