@@ -1,4 +1,3 @@
-// 1. Arreglo con las rutas de las fotos
         const fotos = [
             "img/cafe.webp",
             "img/cerveza.jpg",
