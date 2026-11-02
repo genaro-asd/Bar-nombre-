@@ -1,10 +1,10 @@
         const fotos = [
-            "img/cafe.webp",
-            "img/cerveza.jpg",
-            "img/pizza.jpeg",
-            "img/burger.jpg",
-            "img/tablaFiambres.jpeg",
-            "img/papasconcheddar.webp",    
+            "img/cafe.jpg",
+            "img/cerveza.png",
+            "img/pizza.png",
+            "img/burger.png",
+            "img/tablaFiambres.png",
+            "img/papasconcheddar.png",    
         ];
 
         // 2. Variables de control
