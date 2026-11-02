@@ -2,7 +2,9 @@
             "img/cafe.webp",
             "img/cerveza.jpg",
             "img/pizza.jpeg",
-            "img/panes.jpeg"    
+            "img/burger.jpg",
+            "img/tablaFiambres.jpeg",
+            "img/papasconcheddar.webp",    
         ];
 
         // 2. Variables de control
