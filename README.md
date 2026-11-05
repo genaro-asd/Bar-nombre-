@@ -21,10 +21,12 @@ bar-el-refugio/
 │   ├── carrusel.js       # Lógica del carrusel automático e interactivo
 │   └── contacto.js       # Validación del formulario de reserva y confirmación dinámica
 ├── img/                  # Recursos de imagen (optimizados)
-│   ├── cafe.webp
-│   ├── cerveza.jpg
-│   ├── pizza.jpeg
-│   └── panes.jpeg
+│   ├── cafe.png
+│   ├── burger.png
+│   ├── cerveza.png
+│   └── papasconcheddar.png
+│   ├── pizza.png
+│   └── tablaFiambres.png
 ├── index.html            # Página de inicio con carrusel
 ├── menu.html             # Menú/Carta de productos
 ├── contacto.html         # Formulario de reservas
