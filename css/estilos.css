@@ -189,22 +189,20 @@ nav a:hover, nav a.active {
     position: relative;
 }
 
-/* Estilos para las etiquetas de texto (Labels) */
 .form-group label {
     color: #fafafa;
     font-weight: 600;
     font-size: 0.95rem;
-    width: 35%; /* Ocupa el lado izquierdo */
+    width: 35%; 
     padding-top: 8px;
 }
 
-/* Estilos para los campos de entrada de texto y el textarea */
 .form-group input,
 .form-group textarea {
     width: 62%; /* Ocupa el lado derecho */
     padding: 10px 14px;
     border: 1px solid rgba(255, 255, 255, 0.2);
-    border-radius: 8px; /* Inputs ligeramente redondeados */
+    border-radius: 8px; 
     background-color: #ffffff;
     color: #1e293b;
     font-size: 0.95rem;
@@ -212,28 +210,27 @@ nav a:hover, nav a.active {
     transition: border-color 0.2s, box-shadow 0.2s;
 }
 
-/* Enfoque al hacer clic en un input */
+
 .form-group input:focus,
 .form-group textarea:focus {
     outline: none;
-    border-color: #f7ca44; /* Color de acento (ej. Amarillo/Dorado si usas en tu marca) */
+    border-color: #f7ca44; 
     box-shadow: 0 0 0 3px rgba(247, 202, 68, 0.2);
 }
 
-/* Estilos para los mensajes de error de JavaScript debajo de cada campo */
 .error-message {
-    color: #ef4444;
+    color: #170909;
     font-size: 0.75rem;
     position: absolute;
     bottom: -16px;
     right: 0;
-    width: 62%; /* Alineado justo debajo del input */
+    width: 62%; 
     text-align: left;
 }
 
 /* Estilo del botón Confirmar Reserva */
 button[type="submit"] {
-    background-color: #f7ca44; /* Cambia este color por el que uses en tus botones */
+    background-color: #f7ca44; 
     color: #1e293b;
     border: none;
     padding: 12px 30px;
@@ -241,7 +238,7 @@ button[type="submit"] {
     font-weight: bold;
     border-radius: 8px;
     cursor: pointer;
-    width: 100%; /* Botón del ancho completo del formulario */
+    width: 100%; 
     margin-top: 15px;
     transition: background-color 0.2s, transform 0.1s;
     box-shadow: 0 4px 12px rgba(247, 202, 68, 0.2);
